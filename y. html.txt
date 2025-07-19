@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khoa Nhi – Trung tâm Y tế Tịnh Biên</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #008DDA; /* Xanh lam tươi sáng */
+      --secondary-color: #41C9E2; /* Xanh lam nhạt hơn */
+      --text-color: #333; /* Màu chữ đen xám */
+      --light-bg: #F0F8FF; /* Nền rất nhạt, gần trắng */
+      --border-color: #ADD8E6; /* Màu viền xanh nhạt */
+      --white: #ffffff;
+      --shadow: rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif; /* Sử dụng font Roboto */
+      line-height: 1.7; /* Tăng chiều cao dòng để dễ đọc */
+      margin: 0;
+      padding: 0;
+      background-color: var(--light-bg); /* Nền tổng thể nhạt */
+      color: var(--text-color);
+    }
+    header {
+      background-color: var(--primary-color); /* Màu xanh chính */
+      color: var(--white);
+      padding: 30px 20px; /* Tăng padding */
+      text-align: center;
+      box-shadow: 0 4px 8px var(--shadow); /* Thêm đổ bóng */
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em; /* Kích thước tiêu đề lớn hơn */
+      font-weight: 700; /* In đậm hơn */
+    }
+    header p {
+      font-style: italic;
+      font-size: 1.1em;
+      margin-top: 5px;
+    }
+    main {
+      max-width: 900px; /* Giảm chiều rộng tối đa một chút */
+      margin: 30px auto; /* Tăng margin trên dưới */
+      padding: 30px; /* Tăng padding */
+      background: var(--white);
+      border-radius: 10px; /* Bo tròn góc main container */
+      box-shadow: 0 0 20px var(--shadow); /* Đổ bóng mạnh hơn cho main */
+    }
+    h2 {
+      color: var(--primary-color); /* Màu tiêu đề chính */
+      border-bottom: 3px solid var(--secondary-color); /* Đường viền dày hơn, màu khác */
+      padding-bottom: 10px;
+      margin-top: 45px; /* Tăng margin top */
+      font-size: 1.8em;
+      font-weight: 700;
+    }
+    ul {
+      margin-left: 25px; /* Tăng margin left */
+      padding: 0;
+      list-style-type: disc; /* Đảm bảo dấu chấm đầu dòng */
+    }
+    ul li {
+      margin-bottom: 8px; /* Khoảng cách giữa các mục list */
+    }
+    img {
+      width: 100%;
+      max-width: 800px;
+      display: block; /* Căn giữa hình ảnh */
+      margin: 25px auto; /* Tăng margin và căn giữa */
+      border-radius: 10px; /* Bo tròn góc hình ảnh */
+      box-shadow: 0 5px 15px var(--shadow); /* Đổ bóng cho hình ảnh */
+      transition: transform 0.3s ease; /* Thêm hiệu ứng di chuột */
+    }
+    img:hover {
+        transform: scale(1.01); /* Phóng to nhẹ khi di chuột qua */
+    }
+    .contact {
+      background-color: var(--light-bg); /* Màu nền nhạt cho phần liên hệ */
+      padding: 25px; /* Tăng padding */
+      border-radius: 10px;
+      margin-top: 45px;
+      border: 1px solid var(--border-color); /* Thêm viền nhẹ */
+    }
+    .contact p {
+      margin-bottom: 10px;
+    }
+    .contact a {
+      color: var(--primary-color); /* Màu liên kết */
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact a:hover {
+      text-decoration: underline; /* Gạch chân khi di chuột */
+    }
+    footer {
+      text-align: center;
+      background-color: var(--secondary-color); /* Màu nền footer khác */
+      padding: 20px; /* Tăng padding */
+      font-size: 14px;
+      color: var(--white); /* Chữ màu trắng */
+      margin-top: 40px; /* Khoảng cách với nội dung trên */
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>KHOA NHI – TRUNG TÂM Y TẾ TỊNH BIÊN</h1>
+  <p>Chung tay vì sức khỏe trẻ em</p>
+</header>
+
+<main>
+  <section>
+    <h2>I. Giới thiệu chung</h2>
+    <p>Khoa Nhi là một trong những đơn vị chuyên môn thuộc Trung tâm Y tế Tịnh Biên, đóng vai trò quan trọng trong công tác chăm sóc, điều trị và nâng cao sức khỏe cho trẻ em trên địa bàn và khu vực lân cận.</p>
+    <p>Tiền thân của khoa là bộ phận Nhi thuộc khối Nội – Nhi – Nhiễm, sau đó được tách ra thành đơn vị độc lập nhằm chuyên sâu hoạt động khám chữa bệnh nhi khoa.</p>
+    <p>Hiện khoa đặt tại <strong>Tầng 1, khu A</strong> của Trung tâm, với tổng số <strong>10 nhân sự</strong>, gồm các bác sĩ, điều dưỡng, hộ lý có trình độ chuyên môn vững vàng, giàu kinh nghiệm, tâm huyết với nghề. Cùng với sự đầu tư về trang thiết bị y tế hiện đại, Khoa Nhi đang từng bước nâng cao chất lượng dịch vụ, đảm bảo điều trị hiệu quả và thân thiện cho trẻ nhỏ.</p>
+    <img src="images/toancanh-khoa.jpg" alt="Ảnh toàn cảnh khoa Nhi">
+  </section>
+
+  <section>
+    <h2>II. Tổ chức – Nhân sự</h2>
+    <p><strong>Phó Trưởng khoa:</strong> BS CKI. Mai Xa</p>
+    <p><strong>Điều dưỡng trưởng:</strong> CNĐD Nguyễn Tuấn Cường</p>
+    <p><strong>Tổng nhân sự:</strong> 10 người</p>
+    <ul>
+      <li>Bác sĩ: 03 (trong đó 02 BS CKI)</li>
+      <li>Điều dưỡng: 06 (03 cử nhân, 03 cao đẳng/trung cấp)</li>
+      <li>Hộ lý: 01</li>
+    </ul>
+    <p>Toàn thể đội ngũ luôn đoàn kết, chủ động cập nhật kiến thức chuyên môn, thực hành điều dưỡng theo chuẩn, lấy người bệnh làm trung tâm.</p>
+    <img src="images/nhansu-khoa.jpg" alt="Ảnh nhân sự Khoa Nhi">
+  </section>
+
+  <section>
+    <h2>III. Chức năng – Nhiệm vụ</h2>
+    <ul>
+      <li>Khám và điều trị các bệnh lý thường gặp ở trẻ sơ sinh và trẻ nhỏ như: viêm phổi, tiêu chảy, sốt xuất huyết, tay chân miệng, sởi, thủy đậu và zona.</li>
+      <li>Thực hiện kỹ thuật chuyên môn như: chăm sóc thiết yếu, khí dung, theo dõi dấu hiệu sinh tồn, tư vấn nuôi con bằng sữa mẹ.</li>
+      <li>Phối hợp giữa bác sĩ – điều dưỡng – hộ lý trong chăm sóc toàn diện: từ điều trị, theo dõi đến hỗ trợ sinh hoạt, ăn uống, vệ sinh cho bệnh nhi.</li>
+      <li>Hướng dẫn người nhà kỹ năng chăm sóc trẻ trong thời gian nằm viện và khi xuất viện.</li>
+      <li>Hợp tác chuyên môn, tham gia đào tạo, nghiên cứu khoa học và triển khai kỹ thuật mới trong lĩnh vực Nhi khoa.</li>
+      <li>Tham gia công tác chỉ đạo tuyến, truyền thông giáo dục sức khỏe cho cộng đồng.</li>
+    </ul>
+    <img src="images/kham-chucnang.jpg" alt="Chức năng nhiệm vụ - chăm sóc trẻ em">
+  </section>
+
+  <section>
+    <h2>IV. Trang thiết bị chuyên môn</h2>
+    <p>Khoa Nhi được trang bị đầy đủ các thiết bị phục vụ cho chăm sóc và điều trị trẻ em, bao gồm:</p>
+    <ul>
+      <li>Máy khí dung</li>
+      <li>Máy đếm giọt tự động</li>
+      <li>Bơm tiêm điện tự động</li>
+      <li>Lồng ấp sơ sinh</li>
+      <li>Monitor theo dõi đa thông số</li>
+      <li>Máy hút dịch</li>
+      <li>Đèn chiếu vàng da</li>
+    </ul>
+    <img src="images/trang-thiet-bi.jpg" alt="Trang thiết bị khoa Nhi">
+  </section>
+
+  <section>
+    <h2>V. Thành tích nổi bật</h2>
+    <ul>
+      <li>Đạt danh hiệu Tập thể lao động tiên tiến nhiều năm liền.</li>
+      <li>Nhận bằng khen của Sở Y tế và UBND tỉnh An Giang vì thành tích trong công tác chăm sóc sức khỏe trẻ em.</li>
+      <li>Tích cực tham gia các chiến dịch truyền thông như: Tuần lễ tiêm chủng, Ngày Vi chất dinh dưỡng, Phòng chống dịch bệnh ở trẻ em.</li>
+      <li>Đóng góp nhiều sáng kiến trong cải tiến quy trình chăm sóc nhi khoa.</li>
+    </ul>
+    <img src="images/khenthuong.jpg" alt="Thành tích khen thưởng">
+  </section>
+
+  <section>
+    <h2>VI. Hình ảnh hoạt động</h2>
+    <img src="images/hoatdong1.jpg" alt="Ảnh hoạt động 1">
+    <img src="images/hoatdong2.jpg" alt="Ảnh hoạt động 2">
+    <img src="images/hoatdong3.jpg" alt="Ảnh hoạt động 3">
+  </section>
+
+  <section>
+    <h2>VII. Định hướng phát triển</h2>
+    <ul>
+      <li>Nâng cao chất lượng điều trị, cập nhật các phác đồ điều trị mới, đảm bảo an toàn – hiệu quả – thân thiện với trẻ.</li>
+      <li>Mở rộng kỹ thuật mới trong chăm sóc sơ sinh như theo dõi vàng da không xâm lấn.</li>
+      <li>Đào tạo nhân sự chuyên sâu, khuyến khích tham gia các lớp CME, hội nghị chuyên ngành.</li>
+      <li>Tăng cường hợp tác với các bệnh viện tuyến trên và các tổ chức trong nước để nâng cao trình độ chuyên môn, tiếp cận kỹ thuật mới.</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Thông tin liên hệ</h2>
+    <p><strong>Địa chỉ:</strong> Khoa Nhi – Trung tâm Y tế Tịnh Biên, Tỉnh An Giang</p>
+    <p><strong>Điện thoại:</strong> [Cập nhật]</p>
+    <p><strong>Email:</strong> <a href="mailto:khoanhibvdkhtb@gmail.com">khoanhibvdkhtb@gmail.com</a></p>
+    <p><strong>Thời gian hoạt động:</strong> 24/24</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Khoa Nhi – Trung tâm Y tế Tịnh Biên. Thiết kế bởi nhóm CNTT.
+</footer>
+
+</body>
+</html>
